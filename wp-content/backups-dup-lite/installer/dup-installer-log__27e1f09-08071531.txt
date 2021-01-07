@@ -1,0 +1,711 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:44:50
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.2                                 |7.4.11
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2020-11-08 07:15:31
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.38
+DB__________________: 10.1.30
+DB TABLES___________: 49
+DB ROWS_____________: 5,717
+DB FILE SIZE________: 8.53MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.11 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.11
+DOC ROOT____________: "E:/xamppp/htdocs/wordpress"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/wordpress/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xamppp/htdocs/wordpress/20201108_welcome_[HASH]_20201108071531_archive.zip"
+SIZE________________: 62.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "E:/xamppp/htdocs/wordpress/20201108_welcome_[HASH]_20201108071531_archive.zip"
+SIZE________________: 62.09MBFile timestamp set to Current: 2021-01-06 10:47:09
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:47:09 - RUNTIME: 138.0919 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:48:03
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.14 -- Build Server: 10.1.30
+FILE SIZE:	dup-database__[HASH].sql (4.8MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[E:/xamppp/htdocs/wordpress/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	434
+
+wp_actionscheduler_actions: (12)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (4)
+wp_actionscheduler_logs: (28)
+wp_cartflows_ca_cart_abandonment: (1)
+wp_cartflows_ca_email_history: (0)
+wp_cartflows_ca_email_templates: (3)
+wp_cartflows_ca_email_templates_meta: (15)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (375)
+wp_postmeta: (3952)
+wp_posts: (393)
+wp_term_relationships: (173)
+wp_term_taxonomy: (54)
+wp_termmeta: (44)
+wp_terms: (54)
+wp_usermeta: (34)
+wp_users: (1)
+wp_wc_admin_note_actions: (7)
+wp_wc_admin_notes: (7)
+wp_wc_category_lookup: (1)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (57)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (1)
+wp_woocommerce_shipping_zone_methods: (2)
+wp_woocommerce_shipping_zones: (1)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (1)
+wp_wpforms_tasks_meta: (5)
+Removed '97' cache/transient rows
+
+INSERT DATA RUNTIME: 15.4076 sec.
+STEP-2 COMPLETE @ 10:48:19 - RUNTIME: 15.4472 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:48:38
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Welcome"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/wproject"
+path_new______________: "E:/xamppp/htdocs/wordpress"
+siteurl_______________: "http://localhost/wordpress"
+url_old_______________: "http://localhost/wproject"
+url_new_______________: "http://localhost/wordpress"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_cartflows_ca_cart_abandonment"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_cartflows_ca_email_history"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cartflows_ca_email_templates"_________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_cartflows_ca_email_templates_meta"____________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   375][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  3952][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   393][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   173][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    54][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    57][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  2:"C:\/xampp\/htdocs\/wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  4:"C:\xampp\htdocs\wproject" ========================> "E:/xamppp/htdocs/wordpress"
+	SEARCH  5:"C:\\xampp\\htdocs\\wproject" =====================> "E:\/xamppp\/htdocs\/wordpress"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Cwproject" ================> "E%3A%2Fxamppp%2Fhtdocs%2Fwordpress"
+	SEARCH  7:"//localhost/wproject" ============================> "//localhost/wordpress"
+	SEARCH  8:"\/\/localhost\/wproject" =========================> "\/\/localhost\/wordpress"
+	SEARCH  9:"%2F%2Flocalhost%2Fwproject" ======================> "%2F%2Flocalhost%2Fwordpress"
+	SEARCH 10:"https://localhost/wordpress" =====================> "http://localhost/wordpress"
+	SEARCH 11:"https:\/\/localhost\/wordpress" ==================> "http:\/\/localhost\/wordpress"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fwordpress" =============> "http%3A%2F%2Flocalhost%2Fwordpress"
+--------------------------------------
+SCANNED:	Tables:49 	|	 Rows:5229 	|	 Cells:29164 
+UPDATED:	Tables:5 	|	 Rows:425 	|	 Cells:444 
+ERRORS:		0 
+RUNTIME:	1.464000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wordpress""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:48:40 - RUNTIME: 1.6075 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
